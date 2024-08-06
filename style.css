@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+:root{
+    --muted-red: #d32f2f;
+    --black: #000000;
+    --dark-gray: #333333;
+    --charcoal: #121212;
+    --light-gray: #bdbdbd;
+    --medium-gray: #9e9e9e;
+    --accent-gray: #616161;
+    --soft-red: #ffcdd2;
+    --dark-blue: #0e0e11;
+    --dark-blue1: #1E1F28;
+    --dark-blue2: #2d2e38;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--light-gray);
+    color: var(--light-gray);
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+
+/* HEADER  */
+
+/* Header */
+header {
+    background-color: var(--dark-blue1);
+    color: var(--light-gray);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: top;
+    width: 100%;
+    top: 0;
+    padding: 10px 20px;
+    z-index: 1000;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    max-width: 2000px;
+}
+
+.header-container {
+    flex: 1;
+}
+
+
+/* Logo */
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo #logo1, #logo2, #minilogo {
+    color: #fff;
+    cursor: default;
+}
+
+.logo #logo1 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.logo #logo2 {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.logo #minilogo {
+    height: 50px;
+    width: auto;
+}
+
+/* Navigation Links */
+nav {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    margin-left: -170px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    color: #fff;
+    font-size: 1.3rem;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: var(--muted-red);
+}
+
+/* Book Now Button */
+.booknow {
+    background-color: var(--muted-red);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+.booknow:hover {
+    background-color: var(--soft-red);
+    color: var(--muted-red);
+}
+
+/* HERO SECTION */
+
+.hero {
+    padding: 100px 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.hero-text {
+    max-width: 600px;
+}
+
+.hero h1 {
+    color: var(--muted-red);
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    color: var(--dark-blue);
+    font-size: 1.22rem;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+.hero-image img {
+    width: 550px;
+    border-radius: 100px;
+    margin-left: 125px;
+}
+
+.hero-booknow {
+    margin-top: 40px;
+}
+
+
+/* SCHEDULE CONTAINER */
+.schedule-container {
+    width: 100%;
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
+/* CONTACT  */
+
+.contacts-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    gap: 50px;
+}
+
+.contacts, .openhours{
+    color: #000000;
+}
