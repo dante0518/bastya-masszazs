@@ -190,16 +190,4 @@ nav ul li a:hover {
     justify-content: center;
 }
 
-/* CONTACT  */
 
-.contacts-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 200px;
-    gap: 50px;
-}
-
-.contacts, .openhours{
-    color: #000000;
-}

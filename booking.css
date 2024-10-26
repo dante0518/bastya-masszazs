@@ -1,0 +1,25 @@
+@import url(style.css);
+
+
+/* SCHEDULE CONTAINER */
+.schedule-container {
+    width: 100%;
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
+/* CONTACT  */
+
+.contacts-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    gap: 50px;
+}
+
+.contacts, .openhours{
+    color: #000000;
+}
+
